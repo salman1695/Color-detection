@@ -1,0 +1,27 @@
+
+---
+
+## 📄 `Phase 2 – Advanced Color Detection (Multiple Colors)` – `README.md`
+
+```markdown
+# 🌈 Phase 2 – Advanced Color Detection with Multiple Colors
+
+This is an upgraded version of the basic color detection system. It can now detect **more than 3 colors** including Yellow, Orange, Purple, etc.
+
+## 🎯 Features
+
+- Detects multiple colors in real-time:
+  - 🔴 Red
+  - 🟢 Green
+  - 🔵 Blue
+  - 🟡 Yellow
+  - 🟠 Orange
+  - 🟣 Violet / Purple
+- Accurate detection using HSV color space
+- Customizable color range for easy extension
+- Real-time webcam view with contour or bounding box
+
+## 📦 Requirements
+
+```bash
+pip install opencv-python numpy
